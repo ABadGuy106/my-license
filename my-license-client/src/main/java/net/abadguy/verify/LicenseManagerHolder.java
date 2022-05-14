@@ -6,9 +6,6 @@ import de.schlichtherle.license.LicenseParam;
 /**
  * de.schlichtherle.license.LicenseManager的单例
  *
- * @author zifangsky
- * @date 2018/4/19
- * @since 1.0.0
  */
 public class LicenseManagerHolder {
 

@@ -78,8 +78,6 @@ public class LicenseCreatorParam implements Serializable {
      */
     private LicenseCheckModel licenseCheckModel;
 
-    //省略setter和getter方法
-
     @Override
     public String toString() {
         return "LicenseCreatorParam{" +

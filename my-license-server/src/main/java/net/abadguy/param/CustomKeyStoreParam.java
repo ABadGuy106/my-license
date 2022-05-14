@@ -53,8 +53,6 @@ public class CustomKeyStoreParam extends AbstractKeyStoreParam {
      *
      * @param
      * @return java.io.InputStream
-     * @author 方瑞冬
-     * @version 1.0
      */
     @Override
     public InputStream getStream() throws IOException {

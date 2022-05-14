@@ -9,9 +9,6 @@ import java.util.List;
 /**
  * 自定义需要校验的License参数
  *
- * @author zifangsky
- * @date 2018/4/23
- * @since 1.0.0
  */
 @Setter
 @Getter

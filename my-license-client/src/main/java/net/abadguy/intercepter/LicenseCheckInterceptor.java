@@ -14,9 +14,6 @@ import java.util.Map;
 /**
  * LicenseCheckInterceptor
  *
- * @author zifangsky
- * @date 2018/4/25
- * @since 1.0.0
  */
 public class LicenseCheckInterceptor extends HandlerInterceptorAdapter {
     private static Logger logger = LogManager.getLogger(LicenseCheckInterceptor.class);

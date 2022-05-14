@@ -13,10 +13,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 在项目启动时安装证书
- *
- * @author zifangsky
- * @date 2018/4/24
- * @since 1.0.0
  */
 @Component
 public class LicenseCheckListener implements ApplicationListener<ContextRefreshedEvent> {

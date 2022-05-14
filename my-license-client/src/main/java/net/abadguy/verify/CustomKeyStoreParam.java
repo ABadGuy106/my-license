@@ -6,10 +6,6 @@ import java.io.*;
 
 /**
  * 自定义KeyStoreParam，用于将公私钥存储文件存放到其他磁盘位置而不是项目中
- *
- * @author zifangsky
- * @date 2018/4/26
- * @since 1.0.0
  */
 public class CustomKeyStoreParam extends AbstractKeyStoreParam {
 
@@ -48,9 +44,6 @@ public class CustomKeyStoreParam extends AbstractKeyStoreParam {
     /**
      * 复写de.schlichtherle.license.AbstractKeyStoreParam的getStream()方法<br/>
      * 用于将公私钥存储文件存放到其他磁盘位置而不是项目中
-     * @author zifangsky
-     * @date 2018/4/26 18:28
-     * @since 1.0.0
      * @param
      * @return java.io.InputStream
      */

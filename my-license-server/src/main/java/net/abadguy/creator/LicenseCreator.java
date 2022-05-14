@@ -27,9 +27,6 @@ public class LicenseCreator {
 
     /**
      * 生成License证书
-     * @author zifangsky
-     * @date 2018/4/20 10:58
-     * @since 1.0.0
      * @return boolean
      */
     public boolean generateLicense(){
@@ -48,9 +45,6 @@ public class LicenseCreator {
 
     /**
      * 初始化证书生成参数
-     * @author zifangsky
-     * @date 2018/4/20 10:56
-     * @since 1.0.0
      * @return de.schlichtherle.license.LicenseParam
      */
     private LicenseParam initLicenseParam(){
@@ -75,9 +69,6 @@ public class LicenseCreator {
 
     /**
      * 设置证书生成正文信息
-     * @author zifangsky
-     * @date 2018/4/20 10:57
-     * @since 1.0.0
      * @return de.schlichtherle.license.LicenseContent
      */
     private LicenseContent initLicenseContent(){

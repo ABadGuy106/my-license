@@ -48,7 +48,6 @@ public class LicenseVerifyParam {
         this.publicKeysStorePath = publicKeysStorePath;
     }
 
-    //省略setter和getter方法
 
     @Override
     public String toString() {
