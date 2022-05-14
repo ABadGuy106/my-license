@@ -1,0 +1,37 @@
+server:
+  port: 8751
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        enabled: true
+        username: nacos
+        password: nacos
+        metadata:
+          version: 1
+  application:
+    name: my-product
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+#是否开启灰度调用
+gray:
+  routing:
+    enabled: true
+
+license:
+  licensePath: D:/data/license.lic

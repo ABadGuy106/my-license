@@ -1,0 +1,56 @@
+.lein-repl-history
+/classes
+.emacs-project
+bin/jzmq
+.DS_Store
+deploy/classes
+*.fyc
+*.rbc
+*.pyc
+CHILD
+CHILDMAKER
+NANNY
+\#project.clj\#
+.\#project.clj
+.lein-failures
+_release
+*.zip
+*.tar.gz
+.lein-deps-sum
+target
+/.project/
+/.lein-plugins/
+#.*
+!/.travis.yml
+!/.gitignore
+_site
+dependency-reduced-pom.xml
+metastore_db
+build
+/docs/javadocs
+*.class
+
+# logs
+logs
+*.log
+# pid
+*.pid
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+#**/anyest-dev*
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Package Files
+*.war
+*.ear
+
+
